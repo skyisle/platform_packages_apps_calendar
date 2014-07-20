@@ -1,0 +1,252 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From Calendar:
+* .gitignore
+* Android.mk
+* CleanSpec.mk
+* MODULE_LICENSE_APACHE2
+* NOTICE
+* extensions_src/
+* extensions_src/com/
+* extensions_src/com/android/
+* extensions_src/com/android/calendar/
+* extensions_src/com/android/calendar/extensions/
+* extensions_src/com/android/calendar/extensions/AllInOneMenuExtensions.java
+* mkprojectfile
+* proguard.flags
+* tests/
+* tests/Android.mk
+From CalendarCommon:
+* .DS_Store
+* .gitignore
+* Android.mk
+* CleanSpec.mk
+* README
+* tests/
+* tests/Android.mk
+* tests/AndroidManifest.xml
+* tests/src/
+* tests/src/com/
+* tests/src/com/android/
+* tests/src/com/android/calendarcommon2/
+* tests/src/com/android/calendarcommon2/DurationTest.java
+* tests/src/com/android/calendarcommon2/EventRecurrenceTest.java
+* tests/src/com/android/calendarcommon2/RRuleTest.java
+* tests/src/com/android/calendarcommon2/RecurrenceProcessorTest.java
+* tests/src/com/android/calendarcommon2/RecurrenceSetTest.java
+From chips:
+* Android.mk
+* sample/
+* sample/Android.mk
+* sample/AndroidManifest.xml
+* sample/res/
+* sample/res/drawable-hdpi/
+* sample/res/drawable-hdpi/ic_launcher.png
+* sample/res/drawable-mdpi/
+* sample/res/drawable-mdpi/ic_launcher.png
+* sample/res/drawable-xhdpi/
+* sample/res/drawable-xhdpi/ic_launcher.png
+* sample/res/layout/
+* sample/res/layout/activity_main.xml
+* sample/res/values-af/
+* sample/res/values-af/strings.xml
+* sample/res/values-am/
+* sample/res/values-am/strings.xml
+* sample/res/values-ar/
+* sample/res/values-ar/strings.xml
+* sample/res/values-bg/
+* sample/res/values-bg/strings.xml
+* sample/res/values-ca/
+* sample/res/values-ca/strings.xml
+* sample/res/values-cs/
+* sample/res/values-cs/strings.xml
+* sample/res/values-da/
+* sample/res/values-da/strings.xml
+* sample/res/values-de/
+* sample/res/values-de/strings.xml
+* sample/res/values-el/
+* sample/res/values-el/strings.xml
+* sample/res/values-en-rGB/
+* sample/res/values-en-rGB/strings.xml
+* sample/res/values-en-rIN/
+* sample/res/values-en-rIN/strings.xml
+* sample/res/values-es-rUS/
+* sample/res/values-es-rUS/strings.xml
+* sample/res/values-es/
+* sample/res/values-es/strings.xml
+* sample/res/values-et-rEE/
+* sample/res/values-et-rEE/strings.xml
+* sample/res/values-fa/
+* sample/res/values-fa/strings.xml
+* sample/res/values-fi/
+* sample/res/values-fi/strings.xml
+* sample/res/values-fr-rCA/
+* sample/res/values-fr-rCA/strings.xml
+* sample/res/values-fr/
+* sample/res/values-fr/strings.xml
+* sample/res/values-hi/
+* sample/res/values-hi/strings.xml
+* sample/res/values-hr/
+* sample/res/values-hr/strings.xml
+* sample/res/values-hu/
+* sample/res/values-hu/strings.xml
+* sample/res/values-hy-rAM/
+* sample/res/values-hy-rAM/strings.xml
+* sample/res/values-in/
+* sample/res/values-in/strings.xml
+* sample/res/values-it/
+* sample/res/values-it/strings.xml
+* sample/res/values-iw/
+* sample/res/values-iw/strings.xml
+* sample/res/values-ja/
+* sample/res/values-ja/strings.xml
+* sample/res/values-ka-rGE/
+* sample/res/values-ka-rGE/strings.xml
+* sample/res/values-km-rKH/
+* sample/res/values-km-rKH/strings.xml
+* sample/res/values-ko/
+* sample/res/values-ko/strings.xml
+* sample/res/values-lo-rLA/
+* sample/res/values-lo-rLA/strings.xml
+* sample/res/values-lt/
+* sample/res/values-lt/strings.xml
+* sample/res/values-lv/
+* sample/res/values-lv/strings.xml
+* sample/res/values-mn-rMN/
+* sample/res/values-mn-rMN/strings.xml
+* sample/res/values-ms-rMY/
+* sample/res/values-ms-rMY/strings.xml
+* sample/res/values-nb/
+* sample/res/values-nb/strings.xml
+* sample/res/values-nl/
+* sample/res/values-nl/strings.xml
+* sample/res/values-pl/
+* sample/res/values-pl/strings.xml
+* sample/res/values-pt-rPT/
+* sample/res/values-pt-rPT/strings.xml
+* sample/res/values-pt/
+* sample/res/values-pt/strings.xml
+* sample/res/values-ro/
+* sample/res/values-ro/strings.xml
+* sample/res/values-ru/
+* sample/res/values-ru/strings.xml
+* sample/res/values-sk/
+* sample/res/values-sk/strings.xml
+* sample/res/values-sl/
+* sample/res/values-sl/strings.xml
+* sample/res/values-sr/
+* sample/res/values-sr/strings.xml
+* sample/res/values-sv/
+* sample/res/values-sv/strings.xml
+* sample/res/values-sw/
+* sample/res/values-sw/strings.xml
+* sample/res/values-th/
+* sample/res/values-th/strings.xml
+* sample/res/values-tl/
+* sample/res/values-tl/strings.xml
+* sample/res/values-tr/
+* sample/res/values-tr/strings.xml
+* sample/res/values-uk/
+* sample/res/values-uk/strings.xml
+* sample/res/values-vi/
+* sample/res/values-vi/strings.xml
+* sample/res/values-zh-rCN/
+* sample/res/values-zh-rCN/strings.xml
+* sample/res/values-zh-rHK/
+* sample/res/values-zh-rHK/strings.xml
+* sample/res/values-zh-rTW/
+* sample/res/values-zh-rTW/strings.xml
+* sample/res/values-zu/
+* sample/res/values-zu/strings.xml
+* sample/res/values/
+* sample/res/values/strings.xml
+* sample/src/
+* sample/src/com/
+* sample/src/com/android/
+* sample/src/com/android/ex/
+* sample/src/com/android/ex/chips/
+* sample/src/com/android/ex/chips/sample/
+* sample/src/com/android/ex/chips/sample/MainActivity.java
+* tests/
+* tests/Android.mk
+* tests/AndroidManifest.xml
+* tests/src/
+* tests/src/com/
+* tests/src/com/android/
+* tests/src/com/android/ex/
+* tests/src/com/android/ex/chips/
+* tests/src/com/android/ex/chips/ChipsTest.java
+* tests/src/com/android/ex/chips/RecipientAlternatesAdapterTest.java
+From colorpicker:
+* .gitignore
+* Android.mk
+From datetimepicker:
+* .gitignore
+* Android.mk
+* proguard.flags
+From timezonepicker:
+* .gitignore
+* Android.mk
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In CalendarCommon:
+* AndroidManifest.xml => calendarCommon/src/main/AndroidManifest.xml
+* src/ => calendarCommon/src/main/java/
+In chips:
+* AndroidManifest.xml => chips/src/main/AndroidManifest.xml
+* res/ => chips/src/main/res/
+* src/ => chips/src/main/java/
+In colorpicker:
+* AndroidManifest.xml => colorpicker/src/main/AndroidManifest.xml
+* res/ => colorpicker/src/main/res/
+* src/ => colorpicker/src/main/java/
+In datetimepicker:
+* AndroidManifest.xml => datetimepicker/src/main/AndroidManifest.xml
+* res/ => datetimepicker/src/main/res/
+* src/ => datetimepicker/src/main/java/
+In timezonepicker:
+* AndroidManifest.xml => timezonepicker/src/main/AndroidManifest.xml
+* assets/ => timezonepicker/src/main/assets/
+* res/ => timezonepicker/src/main/res/
+* src/ => timezonepicker/src/main/java/
+In Calendar:
+* AndroidManifest.xml => calendar/src/main/AndroidManifest.xml
+* assets/ => calendar/src/main/assets/
+* res/ => calendar/src/main/res/
+* src/ => calendar/src/main/java/
+* tests/src/ => calendar/src/androidTest/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
